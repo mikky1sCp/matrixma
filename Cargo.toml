@@ -9,6 +9,16 @@ blake3   = "1"
 chacha20 = "0.9"
 zeroize  = "1"
 hex      = "0.4"
+rayon    = "1.10"
+
+# Опциональные зависимости для Verifier (будущий P2P).
+# Включаются фичей `async-verifier`.
+tokio    = { version = "1", features = ["rt-multi-thread", "sync"], optional = true }
+lru      = { version = "0.12", optional = true }
+
+[features]
+default = []
+async-verifier = ["tokio", "lru"]
 
 [profile.release]
 opt-level = 3
