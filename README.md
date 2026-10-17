@@ -301,10 +301,7 @@ cargo test --release --features async-verifier verifier
 ```
 matrixma/
 ├── Cargo.toml
-├── Cargo.lock
 ├── README.md              ← этот файл
-├── CONSENSUS.md           ← спецификация консенсуса
-├── rust-toolchain.toml    ← фиксированная версия Rust
 ├── LICENSE                ← MIT
 └── src/
     ├── lib.rs             ← фасад
@@ -322,6 +319,3 @@ matrixma/
 ## Лицензия
 
 MIT. См. [`LICENSE`](LICENSE).
-```
-
----
