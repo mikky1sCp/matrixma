@@ -1,6 +1,6 @@
 # MatrixMA
 
-**CPU-friendly memory-hard proof-of-work для приватного блокчейна.**
+**CPU-friendly memory-hard proof-of-work для публичного блокчейна.**
 
 Алгоритм, который делает майнинг выгодным на обычных процессорах и
 невыгодным на GPU/ASIC. Плюс майнер, верификатор и CLI-инструменты.
